@@ -49,9 +49,12 @@
     <nav id="header-nav" class="navbar navbar-default navbar-fixed-top my-nav">
         <div class="container">
             <div class="navbar-header">
-                <a href="index.html" class="pull-left  " class="animated infinite bounce">
+                <a href="index.html" class="pull-left hidden-xs ">
                     <img  class="logo" src="assets/img/try.png" alt="">
                 </a>
+                <a href="index.html" class="pull-left hidden-sm hidden-md hidden-lg ">
+                <img  class="logo" src="assets/img/logoSmall.png" alt="">
+            </a>
 
                 <!--<h1 class="animated infinite bounce">Example</h1>-->
                 <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -63,6 +66,13 @@
             </div>
             <div id="collapsable-nav" class="collapse navbar-collapse my-menu">
                 <ul id="nav-list" class="nav navbar-nav navbar-right  ">
+                    <li>
+                        <a href="#" class="text-center botomBorder">
+                            <!--<span class="hidden-xs"> -->
+                            Home
+                            <!--</span>-->
+                        </a>
+                    </li>
                     <li>
                         <a href="#gallery" class="text-center botomBorder">
                             <!--<span class="hidden-xs"> -->
@@ -90,8 +100,12 @@
 
         </div>
     </nav>
-    <div class="pic text-center animated  fadeInDown">
-        <img src="./assets/img/gamalColor.png" alt="">
+    <div class="pic text-center animated  fadeInDown  hidden-xs ">
+        <img  src="./assets/img/gamalColor.png" alt="">
+    </div>
+
+    <div class="pic text-center animated  fadeInDown  hidden-sm hidden-md hidden-lg ">
+        <img  src="./assets/img/gamalStanSmall.png" alt="">
     </div>
     <hr class="first">
 
@@ -141,7 +155,7 @@
 
 <div class="row" id="about">
     <h2 class="headline text-center">About Us</h2>
-    <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
         <img class="" src="http://placehold.it/500x350">
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 text-center aboutText "><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -229,7 +243,18 @@
     </section>
     <!-- End Map section -->
 
+<footer class="text-center">
+    <a href="#" class="go-top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
 
+    <a href="#" class="links"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+    </a>
+    <a href="#" class="links"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
+    </a>
+    <a href="#" class="links"><i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+</footer>
 </div>
 <!-- jQuery library -->
 <script src="assets/js/jquery.min.js"></script>
